@@ -1,0 +1,10 @@
+@use "./styles/fonts.scss";
+@use "./components/header/header.scss";
+@use "./components/footer/footer.scss";
+@use "./components/description/description.scss";
+
+.container_small {
+    max-width: 320px;
+    padding: 0 16px;
+    margin: 0 auto;
+}

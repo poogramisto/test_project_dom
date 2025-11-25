@@ -1,0 +1,16 @@
+
+@use '../../styles/mixins.scss';
+
+.description {
+    &__title {
+        @include mixins.title;
+        text-align: center;
+    }
+
+    &__paragraph {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
