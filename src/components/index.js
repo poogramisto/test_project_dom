@@ -1,3 +1,7 @@
 export { Header } from './header'
 export { Footer } from './footer'
 export { Description } from './description'
+export { Graph } from './graph'
+export { OfferForm, SpeakerForm } from './forms'
+export { Archive } from './archive'
+export { News } from './news'

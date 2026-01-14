@@ -2,7 +2,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding-top: 16px;
+    padding: 16px 0px;
 
     &__logo-wrap {
         display: flex;
@@ -25,7 +25,7 @@
             position: absolute;
             top: 7px;
             left: 0px;
-            background: #252628;
+            background: var(--text-color);
         }
 
         &::after {
@@ -35,7 +35,7 @@
             position: absolute;
             bottom: 7px;
             left: 0px;
-            background: #252628;
+            background: var(--text-color);
         }
     }
 }

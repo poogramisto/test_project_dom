@@ -4,3 +4,9 @@
     font-size: 22px;
     line-height: 26px;
 }
+
+@mixin text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
