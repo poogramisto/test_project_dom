@@ -1,13 +1,27 @@
-import { Header, Footer, Description } from './components'
+import {
+  Header,
+  Footer,
+  Description,
+  Graph,
+  OfferForm,
+  SpeakerForm,
+  Archive,
+  News
+} from './components'
 
 function App() {
 
   return (
     <>
-      <div className="container_small">
+      <div className="container_small">        
         <Header />
         <Description />
+        <Graph />
+        <OfferForm />
+        <SpeakerForm />
         <Footer />
+        <Archive/>
+        <News/>
       </div>
     </>
   )

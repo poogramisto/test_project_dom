@@ -1,5 +1,8 @@
 :root {
   --text-color: #252628;
+  --color-grey: #6D6D6D;
+  --link-color: #699B12;
+  --border-color: #C8C8CB;
 }
 
 * {
@@ -8,6 +11,17 @@
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
 }
 
 body {

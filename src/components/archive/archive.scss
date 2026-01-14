@@ -1,0 +1,89 @@
+@use '../../styles/mixins.scss';
+
+.archive {
+
+    &__title {
+        @include mixins.title;
+        margin-bottom: 24px;
+    }
+
+    &__poster {
+        background-image: url("public/archive_fon.webp");
+        min-width: 288px;
+        min-height: 164px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__survey {
+        height: 40px;
+        padding: 10px 20px;
+        background: transparent;
+        border: 1px solid #FFFFFF;
+        border-radius: 24px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    &__gallery {
+        background: #FFFFFF;
+        border-radius: 24px     ;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: var(--text-color);
+    }
+
+    &__paragraph {
+        max-width: 87px;
+        background: #DEDEDE;
+        padding: 0px 6px;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        color: var(--text-color);
+    }
+
+    &__subtitle {
+        padding-bottom: 12px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: var(--text-color);
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        display: flex;
+        padding-bottom: 12px;
+    }
+
+    &__item-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: var(--text-color);
+    }
+
+    &__link-doc {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: var(--color-grey);
+    }
+
+}

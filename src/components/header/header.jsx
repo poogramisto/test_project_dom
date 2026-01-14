@@ -1,5 +1,5 @@
 
-const Header = () => {
+export const Header = () => {
     return (
         <header className="header">
             <div className="header__logo-wrap">
@@ -14,5 +14,3 @@ const Header = () => {
         </header>
     )
 }
-
-export { Header }

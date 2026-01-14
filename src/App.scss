@@ -1,10 +1,13 @@
 @use "./styles/fonts.scss";
 @use "./components/header/header.scss";
-@use "./components/footer/footer.scss";
 @use "./components/description/description.scss";
+@use "./components/graph/graph.scss";
+@use "./components/forms/offer-form/offer-form.scss";
+@use "./components/archive/archive.scss";
+@use "./components/news/news.scss";
 
 .container_small {
-    max-width: 320px;
+    max-width: 767px;
     padding: 0 16px;
     margin: 0 auto;
 }
