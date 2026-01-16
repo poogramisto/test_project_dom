@@ -6,7 +6,8 @@ import {
   OfferForm,
   SpeakerForm,
   Archive,
-  News
+  News,
+  Questions
 } from './components'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Footer />
         <Archive/>
         <News/>
+        <Questions/>
       </div>
     </>
   )

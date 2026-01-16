@@ -1,0 +1,91 @@
+@use '../../styles/mixins.scss';
+
+.questions {
+    margin: 0 auto;
+    padding: 20px 16px;
+    color: var(--text-color);
+  
+    &__title {
+        @include mixins.title;
+        margin-bottom: 12px;
+    }
+  
+    &__list {
+        border-top: 1px solid #252628;
+    }
+  
+    &__item {
+        border-bottom: 1px solid #E6E6E6;
+        padding: 12px 0;
+    }
+  
+    &__question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+  
+    &__icon {
+        font-size: 20px;
+        font-weight: 500;
+    }
+  
+    &__list-points {
+        margin-top: 10px;
+        list-style: none;
+        padding-left: 16px;
+    }
+  
+    &__point {
+        position: relative;
+        @include mixins.text;
+        margin-bottom: 4px;
+
+        &::before {
+        content: "•";
+        color: #82BF00;
+        position: absolute;
+        left: -12px;
+      }
+    }
+  }
+
+    .contact {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+        padding: 24px 16px;
+        font-family: "Inter", sans-serif;
+        color: #000;
+
+    &__title {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.3;
+        margin-bottom: 12px;
+    }
+
+    &__text {
+        font-size: 14px;
+        line-height: 1.5;
+        color: #666;
+        margin-bottom: 10px;
+    }
+
+    &__email {
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 500;
+        color: #6cc24a;
+        text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  
